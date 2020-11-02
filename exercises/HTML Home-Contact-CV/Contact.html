@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Form">
+    <meta name="author" content="Φανούριος Γκιάλης">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" type="image/gif/png" href="Icons/Martz90-Circle-Phone.ico">
+    <title>Contact Me</title>
+</head>
+<body class="Contacts">
+    <div class="homeImages">
+        <a href="index.html"><img src="Icons/Artdesigner-Urban-Stories-House.ico" alt="Inipagi-Job-Seeker-Cv.ico"></a>
+        <a href="CV.html"><img src="Icons/Inipagi-Job-Seeker-Cv.ico" alt="Inipagi-Job-Seeker-Cv.ico"></a>
+    </div>
+    <div>
+        <h1>Contact Form</h1>
+        <h3>If you wish to contact me for whatever reason you will have to fiil out the form below and click the send button:</h3>
+        <form>
+            <table border="5" style="border: 5px solid red; border-collapse: collapse; text-align: center; margin-left: auto; margin-right: auto; font-size: 20px; margin-top: 40px; display:flexbox; background-color: yellow; color: black;" width="400">
+                <tr>
+                    <th colspan="2">Personal Information</th>
+                </tr>
+                <tr>
+                    <td>Fisrtname:</td>
+                    <th><input type="text" placeholder="Input your Firstname" required></th>
+                </tr>
+                <tr>
+                    <td>Lastname:</td>
+                    <td><input type="text" placeholder="Input your Lastname" required></td>
+                </tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" name="gender">Male  <input type="radio" name="gender">Female</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Children</td>
+                    <td><input type="number" min="0" required></td>
+                </tr>
+                <tr>
+                    <td>Reason of contact:</td>
+                    <td><input type="checkbox">Question  <input type="checkbox">Request  <input type="checkbox">Suggestion</td>
+                </tr>
+                <tr>
+                    <td>E-mail:</td>
+                    <td><input type="email" required></td>
+                </tr>
+                <tr>
+                    <th colspan="2">Main Text</th>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="text"></td>
+                </tr>
+            </table>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+            </form>
+    </div>
+</body>
+</html>
